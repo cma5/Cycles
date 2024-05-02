@@ -69,7 +69,7 @@ int styleChangeRate = 500; // Delay in milliseconds between Style changes
 
 int selectedDevice;
 
-void connectToMIDI(String deviceName){
+/*void connectToMIDI(String deviceName){
 
   MidiBus.list();
     String[] midiDevices = MidiBus.availableInputs(); 
@@ -84,7 +84,7 @@ void connectToMIDI(String deviceName){
     }
     println(selectedDevice);
     myBus = new MidiBus(this, selectedDevice, 0); 
-}
+}*/
 
 void noteOn(int channel, int pitch, int velocity) {
   /** 

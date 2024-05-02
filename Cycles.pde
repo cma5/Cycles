@@ -10,7 +10,7 @@ Edges EdgeMaker;
 Graph LinesGraph;
 Colorscheme Pastel;
 
-MidiBus myBus;
+//MidiBus myBus;
 
 boolean saveImage = false;
 boolean record = false;
@@ -37,7 +37,7 @@ void setup() {
   mult = (height-2*constOffset)/6;
 
   // Custom function in Controls.pde for connecting to a specifically named MIDI Controller
-  connectToMIDI("Teensy MIDI");
+  //connectToMIDI("Teensy MIDI");
 
   EdgeMaker = new Edges();
   LinesGraph = new Graph();
