@@ -18,4 +18,4 @@ A generative design tool for creating shapes based on cycle detection
 - If you use Processing4 replace the .jar file accoding to [this article](https://discourse.processing.org/t/does-themidibus-library-work-in-processing-4/31851/6) 
 
 ### 📽️ Slides:
-To find out how it all works check out [this presention](presentation/cycles.pdf).
+To find out how it all works check out [this presention]([presentation/cycles.pdf](https://github.com/cma5/Cycles/blob/main/presentation/Cycles.pdf)).
